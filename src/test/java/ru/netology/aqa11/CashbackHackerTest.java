@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CashbackHackerTest {
 
     @Test
-    void amount_900_expected_100() {
+    void shouldReturn100Amount900() {
         CashbackHacker cashbackHacker = new CashbackHacker();
         int amount = 900;
 
@@ -18,7 +18,7 @@ class CashbackHackerTest {
     }
 
     @Test
-    void amount_1000_expected_0() {
+    void shouldReturn0Amount1000() {
         CashbackHacker cashbackHacker = new CashbackHacker();
         int amount = 1000;
 
